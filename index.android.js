@@ -16,10 +16,8 @@ import NoHeader from './src/components/component2';
 
 class rugsejo25pvz extends Component {
   render() {
-    let pic = { uri: 'https://www.w3schools.com/css/trolltunga.jpg' };
     if (5>4){ 
-      return 
-      <Image source={pic} style={{width: 150, height: 100 }}/>
+      return <Header />
     } 
     else return <NoHeader />
   } 
